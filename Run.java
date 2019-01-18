@@ -6,7 +6,11 @@ public class Run
     {
         System.out.println( "Welcome to Sam's Riemann Sums calculator!" );
         Scanner sc = new Scanner( System.in );
-        System.out.println( "Please enter your expression: " );
+        System.out.println( "Please enter your expression" );
+        System.out.print( "Enter your expression in terms of x, ");
+        System.out.print( "leave a space after each parenthesis, operator, ");
+        System.out.print( "and value, and explicitly state each instance of ");
+        System.out.println( "multiplication by using \"*\"")
         System.out.print( "f(x) = " );
         String expression = sc.nextLine(); // Takes user input as expression
         
